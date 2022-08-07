@@ -9,8 +9,10 @@ const prod = mongoose.Schema({
         type: String,
         required: true
     },
-    price: Number,
-    required: true
+    price: {
+        type: Number,
+        required: true
+    }
 
 });
 

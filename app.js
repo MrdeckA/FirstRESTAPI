@@ -13,6 +13,8 @@ mongoose.connect('mongodb+srv://design:root@expressapi.zzncuif.mongodb.net/?retr
 
 //
 app.use(bodyParser.json());
+
+//A ce chemin  on peut utiliser la route routerProducts 
 app.use('/api/products/', routerProducts);
 
 module.exports = app;
